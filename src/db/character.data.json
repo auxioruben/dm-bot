@@ -1,0 +1,148 @@
+{
+    "characters": [
+        {
+            "userId": "U0146H2TRPU",
+            "name": "Krolin",
+            "abilities": [
+                {
+                    "name": "STR",
+                    "value": 13,
+                    "modifier": 1
+                },
+                {
+                    "name": "DEX",
+                    "value": 10,
+                    "modifier": 0
+                },
+                {
+                    "name": "CON",
+                    "value": 16,
+                    "modifier": 3
+                },
+                {
+                    "name": "INT",
+                    "value": 12,
+                    "modifier": 1
+                },
+                {
+                    "name": "WIS",
+                    "value": 18,
+                    "modifier": 4
+                },
+                {
+                    "name": "CHA",
+                    "value": 8,
+                    "modifier": -1
+                }
+            ],
+            "saves": [
+                {
+                    "name": "STR",
+                    "modifier": 1
+                },
+                {
+                    "name": "DEX",
+                    "modifier": 0
+                },
+                {
+                    "name": "CON",
+                    "modifier": 3
+                },
+                {
+                    "name": "INT",
+                    "modifier": 4
+                },
+                {
+                    "name": "WIS",
+                    "modifier": 7
+                },
+                {
+                    "name": "CHA",
+                    "modifier": -1
+                }
+            ],
+            "skills": [
+                {
+                    "name": "Religion",
+                    "modifier": 1
+                },
+                {
+                    "name": "Persuasion",
+                    "modifier": -1
+                },
+                {
+                    "name": "Investigation",
+                    "modifier": 1
+                },
+                {
+                    "name": "Acrobatics",
+                    "modifier": 0
+                },
+                {
+                    "name": "Performance",
+                    "modifier": -1
+                },
+                {
+                    "name": "Perception",
+                    "modifier": 7
+                },
+                {
+                    "name": "Sleight of Hand",
+                    "modifier": 0
+                },
+                {
+                    "name": "Survival",
+                    "modifier": 7
+                },
+                {
+                    "name": "History",
+                    "modifier": 1
+                },
+                {
+                    "name": "Animal Handling",
+                    "modifier": 4
+                },
+                {
+                    "name": "Nature",
+                    "modifier": 1
+                },
+                {
+                    "name": "Deception",
+                    "modifier": -1
+                },
+                {
+                    "name": "Intimidation",
+                    "modifier": -1
+                },
+                {
+                    "name": "Arcana",
+                    "modifier": 1
+                },
+                {
+                    "name": "Athletics",
+                    "modifier": 4
+                },
+                {
+                    "name": "Insight",
+                    "modifier": 7
+                },
+                {
+                    "name": "Medicine",
+                    "modifier": 4
+                },
+                {
+                    "name": "Stealth",
+                    "modifier": 0
+                }
+            ],
+            "hp": {
+                "current": 39,
+                "max": 48
+            },
+            "ac": 13,
+            "speed": 25,
+            "passivePerception": 17,
+            "initiative": 0
+        }
+    ]
+}

@@ -1,0 +1,30 @@
+* Tasks
+** Development
+*** Persistance
+**** DONE Implement character model
+     CLOSED: [2020-06-06 Sat 16:20]
+**** DONE Implement a file based persistanced mechanism 
+     CLOSED: [2020-06-06 Sat 16:20]
+**** TODO Implement a database based persistance mechanism
+*** BL
+**** DONE Implement function to find roll abilities, saves, and skills 
+     CLOSED: [2020-06-07 Sun 12:51]
+**** TODO Implement function to roll initiative
+**** TODO Implement function to roll weapon attack/damage
+**** TODO Implement service to import DMV data into character
+*** API
+**** TODO API to import character data
+**** TODO API for slack integration
+*** CLI
+**** DONE Command to roll dice
+     CLOSED: [2020-06-06 Sat 15:28]
+**** DONE Command to load character info
+     CLOSED: [2020-06-06 Sat 16:21]
+**** DONE Command to show character info
+     CLOSED: [2020-06-07 Sun 12:52]
+**** DONE Command to roll for character
+     CLOSED: [2020-06-07 Sun 12:52]
+**** TODO Command to update HP
+*** Deployment
+**** TODO Decide where to deploy
+**** TODO Deploy it!
