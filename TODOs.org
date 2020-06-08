@@ -5,16 +5,20 @@
      CLOSED: [2020-06-06 Sat 16:20]
 **** DONE Implement a file based persistanced mechanism 
      CLOSED: [2020-06-06 Sat 16:20]
-**** TODO Implement a database based persistance mechanism
+**** TODO Implement mechanism to store spells
+**** TODO Implement a database persistance mechanism
 *** BL
 **** DONE Implement function to find roll abilities, saves, and skills 
      CLOSED: [2020-06-07 Sun 12:51]
-**** TODO Implement function to roll initiative
+**** DONE Implement function to roll initiative
+     CLOSED: [2020-06-07 Sun 18:50]
 **** TODO Implement function to roll weapon attack/damage
+**** TODO Implement function to roll spell attack/damage
 **** TODO Implement service to import DMV data into character
 *** API
 **** TODO API to import character data
 **** TODO API for slack integration
+**** TODO Restful API for character operations
 *** CLI
 **** DONE Command to roll dice
      CLOSED: [2020-06-06 Sat 15:28]

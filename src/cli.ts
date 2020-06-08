@@ -67,6 +67,11 @@ async function dispatch(command: string, args: string[]) : Promise<any> {
                 return RollService.rollSkill(currentChar, skillName);
             }
             throw new Error('No character loaded')
+        case 'init':
+            if (currentChar) {
+                return RollService.rollInitiative(currentChar);
+            }
+            throw new Error('No character loaded');
         default:
             return "I don't recognize that command";
     }

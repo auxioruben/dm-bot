@@ -38,40 +38,42 @@ export function roll(rollDef : RollDef) {
     };
 }
 
+function rolld20(modifier: number) {
+    return roll({
+        numDice: 1,
+        sides: 20,
+        modifier: modifier
+    });
+}
+
 export function rollAbility(char: Character, abilityName: dnd.AbilityScoreName) {
-    const ability = char.abilities.find((a) => a.name == abilityName);
-    if (ability) {
-        return roll({
-            numDice: 1,
-            sides: 20,
-            modifier: ability.modifier
-        });
+    const modifier = char.abilities.find((a) => a.name == abilityName)?.modifier;
+    if (modifier !== undefined) {
+        return rolld20(modifier)
     }
     throw new Error(`Ability ${abilityName} is not defined for character ${char.name}`);
 }
 
 export function rollSave(char: Character, abilityName: dnd.AbilityScoreName) {
-    const save = char.saves.find((a) => a.name == abilityName);
-    if (save) {
-        return roll({
-            numDice: 1,
-            sides: 20,
-            modifier: save.modifier
-        });
+    const modifier = char.saves.find((a) => a.name == abilityName)?.modifier;
+    if (modifier !== undefined){
+        return rolld20(modifier);
     }
     throw new Error(`Save ${abilityName} is not defined for character ${char.name}`);
 }
 
+
 export function rollSkill(char: Character, skillName: dnd.SkillName) {
-    const skill = char.skills.find((s) => s.name == skillName);
-    if (skill) {
-        return roll({
-            numDice: 1,
-            sides: 20,
-            modifier: skill.modifier
-        });
+    const modifier = char.skills.find((s) => s.name == skillName)?.modifier;
+    if (modifier !== undefined) {
+        return rolld20(modifier);
     }
     throw new Error(`Skill ${skillName} is not defined for character ${char.name}`);
+}
+
+export function rollInitiative(char: Character) {
+    const modifier = char.initiative;
+    return rolld20(modifier);
 }
 
 function rollDie(nSides: number) {
